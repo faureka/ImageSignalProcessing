@@ -1,0 +1,31 @@
+point12 = randi(length(corresp112),4,1);
+
+point23 = randi(length(corresp123),4,1);
+
+x_s_1 = corresp112(point12,1); y_s_1 = corresp112(point12,2);
+
+x_t_1 = corresp212(point12,1); y_t_1 = corresp212(point12,2);
+
+x_s_2 = corresp123(point12,1); y_s_2 = corresp123(point12,2);
+
+x_t_2 = corresp223(point12,1); y_t_2 = corresp223(point12,2);
+
+H_1 = homography(x_s_1,y_s_1,x_t_1,y_t_1);
+
+H_2 = homography(x_s_2,y_s_2,x_t_2,y_t_2);
+
+H_1_1 = reshape(H_1,3,3)';
+
+H_1_1 = H_1_1./H_1_1(3,3);
+
+H_2_1 = reshape(H_2,3,3);
+
+A = [corresp212(i,1) corresp212(i,2) 1];
+
+B = A/H_1_1;
+
+B = ceil(B./B(1,3));
+
+if ismember(B(1),corresp112(1:length(corresp112),1)) && ismember(B(2),corresp112(1:length(corresp112),2))
+    
+end
