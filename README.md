@@ -1,5 +1,5 @@
 <b>Image Signal Processing</b>
 =====================
 <p>The repository is a made for the "IMAGE SIGNAL PROCESSING" course which is offered by INDIAN INSTITUTE OF TECHNOLOGY Madras, in the Even (VIII) semester. It has codes and probelem statement for the lab sessions which were held during the course. Also it has some additional notes(only a link is provided to the dropbox shared folder.) Moreover the codes presented here are all written in matlab environment using the IMAGE PROCESSING TOOLBOX, but my understanding is that they should run just fine on OCTAVE(open source version of matlab like software) as well. </p>
-<p><a href = "https://www.dropbox.com/sh/8muvroz3d9x8qeq/AACJRMK6lIAEhy-dIdMZjE3xa?dl=0">Notes for the course part 1</a></p>
-<p><a href = "https://www.dropbox.com/sh/jhqwd65ofdgkxew/AAB0oz0SrGVo2mbx5tncwGKda?dl=0">Notes for the course part 2</a></p>
+<p><a href = "https://www.dropbox.com/sh/8muvroz3d9x8qeq/AACJRMK6lIAEhy-dIdMZjE3xa?dl=0" target ="_blank">Notes for the course part 1</a></p>
+<p><a href = "https://www.dropbox.com/sh/jhqwd65ofdgkxew/AAB0oz0SrGVo2mbx5tncwGKda?dl=0" target ="_blank">Notes for the course part 2</a></p>
